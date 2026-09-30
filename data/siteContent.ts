@@ -227,3 +227,14 @@ export const TESTIMONIALS = [
     sample: true,
   },
 ]
+
+/* ---- Home page video insights (Marcus on coding, community, and AI) ----
+ * TODO: replace the placeholder titles/topics with what each clip is about. */
+export const INSIGHT_VIDEOS = [1, 2, 3, 4, 5, 6].map((n) => ({
+  id: `insight-${n}`,
+  title: `Insight #${n}`,
+  topic: "Coding, Community & AI",
+  src: `/videos/marcus-insight-${n}.mp4`,
+  poster: `/videos/marcus-insight-${n}.webp`,
+  duration: "0:30",
+}))
