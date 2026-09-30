@@ -18,7 +18,7 @@ export default function EventLocationsPage() {
       directionsUrl:
         "https://www.google.com/maps/dir/?api=1&destination=201+W+Franklin+Ave%2C+El+Paso%2C+TX+79901",
       mapEmbedUrl:
-        "https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=201+W+Franklin+Ave,+El+Paso,+TX+79901&zoom=15",
+        "https://maps.google.com/maps?q=201+W+Franklin+Ave,+El+Paso,+TX+79901&z=15&output=embed",
     },
     {
       name: t.locations.laNube.name,
@@ -29,7 +29,7 @@ export default function EventLocationsPage() {
       directionsUrl:
         "https://www.google.com/maps/dir/?api=1&destination=201+W+Main+Dr%2C+El+Paso%2C+TX+79901",
       mapEmbedUrl:
-        "https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=201+W+Main+Dr,+El+Paso,+TX+79901&zoom=15",
+        "https://maps.google.com/maps?q=201+W+Main+Dr,+El+Paso,+TX+79901&z=15&output=embed",
     },
   ]
 
